@@ -26,6 +26,7 @@ nohup.out
 *.bat
 
 .history
-web
+
 parking_lot
 run-app
+doc-copy.txt
