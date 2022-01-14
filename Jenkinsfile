@@ -13,6 +13,7 @@ pipeline {
         stage("build"){
             steps {
                  sh 'cd /bin ./build'
+                echo 'in test stage complete'
             }
         }
     }
