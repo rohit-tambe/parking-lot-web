@@ -25,3 +25,5 @@ COPY web /web
 EXPOSE 8081
 
 ENTRYPOINT ["/main"]
+
+CMD [ "./setup" ]
