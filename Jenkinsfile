@@ -11,7 +11,7 @@ pipeline {
         stage("test"){
             steps {
                 echo 'in test stage'
-                cd bin ./setup
+                sh bin ./setup
                 echo 'in test stage complete'
             }
         }
