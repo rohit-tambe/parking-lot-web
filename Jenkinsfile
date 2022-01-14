@@ -2,12 +2,7 @@ pipeline {
     agent any
 
     stages{
-        stage("build"){
-            steps {
-                echo 'in build stage'
-                
-            }
-        }
+        
         stage("test"){
             steps {
                 echo 'in test stage'
@@ -15,9 +10,9 @@ pipeline {
                 echo 'in test stage complete'
             }
         }
-        stage("deploy"){
+        stage("build"){
             steps {
-            echo 'in deploy stage'
+                 sh 'cd /bin ./build'
             }
         }
     }

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+echo "building parking lot"
+go build -o parking_lot ../cmd/main.go
+
+# echo "run parking lot"
+# ./parking_lot
